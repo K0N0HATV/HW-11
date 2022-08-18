@@ -27,46 +27,94 @@ body {
 }
 .grid2 .div1 {
   grid-area: 1/1/2/2;
-  margin: auto;
   color: white;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.grid2 .div1:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 .grid2 .div2 {
   grid-area: 1/2/2/3;
-  margin: auto;
   color: white;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.grid2 .div2:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 .grid2 .div3 {
   grid-area: 2/1/3/2;
-  margin: auto;
   color: white;
   opacity: 0.1;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.grid2 .div3:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 .grid2 .div4 {
   grid-area: 2/2/3/3;
-  margin: auto;
   color: white;
   opacity: 0.1;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.grid2 .div4:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 .grid2 .div5 {
   grid-area: 2/3/3/4;
-  margin: auto;
   color: white;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.grid2 .div5:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 .grid2 .div6 {
   grid-area: 2/4/3/5;
-  margin: auto;
   color: white;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.grid2 .div6:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 .grid2 .div7 {
   grid-area: 2/5/3/6;
-  margin: auto;
   color: white;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.grid2 .div7:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 .grid2 .div8 {
   grid-area: 2/6/3/7;
-  margin: auto;
   color: white;
   opacity: 0.1;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.grid2 .div8:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 @media screen and (min-width: 768px) {
   .grid2 .div8 {
@@ -81,12 +129,13 @@ body {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   background-color: rgba(255, 255, 255, 0.1);
+  justify-items: center;
 }
 .grid3 .div1 {
   grid-area: 1/1/2/2;
-  margin: auto;
   color: white;
   min-height: 26px;
+  cursor: pointer;
 }
 .grid3 .div1::before {
   content: "";
@@ -112,6 +161,7 @@ body {
   margin: auto;
   color: white;
   max-height: 26px;
+  cursor: pointer;
 }
 .grid3 .div2::before {
   content: "ƒ";
@@ -145,6 +195,10 @@ body {
   color: white;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+}
+.grid4 .div1:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 .grid4 .div2 {
   grid-area: 1/2/2/3;
@@ -152,6 +206,10 @@ body {
   color: white;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+}
+.grid4 .div2:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 .grid4 .div3 {
   grid-area: 1/3/2/4;
@@ -159,6 +217,10 @@ body {
   color: white;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+}
+.grid4 .div3:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 .grid4 .div4 {
   grid-area: 1/4/2/5;
@@ -166,6 +228,10 @@ body {
   color: white;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+}
+.grid4 .div4:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 .grid4 .div5 {
   grid-area: 1/5/2/6;
@@ -173,6 +239,10 @@ body {
   color: white;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+}
+.grid4 .div5:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 .grid4 .div6 {
   grid-area: 2/1/3/2;
@@ -180,6 +250,10 @@ body {
   color: white;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+}
+.grid4 .div6:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 .grid4 .div7 {
   grid-area: 2/2/3/3;
@@ -187,6 +261,10 @@ body {
   color: white;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+}
+.grid4 .div7:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 .grid4 .div8 {
   grid-area: 2/3/3/4;
@@ -194,6 +272,10 @@ body {
   color: white;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+}
+.grid4 .div8:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 .grid4 .div9 {
   grid-area: 2/4/3/5;
@@ -201,6 +283,10 @@ body {
   color: white;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+}
+.grid4 .div9:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 .grid4 .div10 {
   grid-area: 2/5/3/6;
@@ -208,6 +294,10 @@ body {
   color: white;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+}
+.grid4 .div10:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 .grid4 .div11 {
   grid-area: 3/1/4/2;
@@ -215,6 +305,10 @@ body {
   color: white;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+}
+.grid4 .div11:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 .grid4 .div12 {
   grid-area: 3/2/4/3;
@@ -222,6 +316,10 @@ body {
   color: white;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+}
+.grid4 .div12:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 .grid4 .div13 {
   grid-area: 3/3/4/4;
@@ -229,6 +327,10 @@ body {
   color: white;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+}
+.grid4 .div13:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 .grid4 .div14 {
   grid-area: 3/4/4/5;
@@ -236,6 +338,10 @@ body {
   color: white;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+}
+.grid4 .div14:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 .grid4 .div15 {
   grid-area: 3/5/4/6;
@@ -243,6 +349,10 @@ body {
   color: white;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+}
+.grid4 .div15:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 .grid4 .div16 {
   grid-area: 4/1/5/2;
@@ -250,6 +360,10 @@ body {
   color: white;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+}
+.grid4 .div16:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 .grid4 .div17 {
   grid-area: 4/2/5/3;
@@ -257,6 +371,10 @@ body {
   color: white;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+}
+.grid4 .div17:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 .grid4 .div18 {
   grid-area: 4/3/5/4;
@@ -264,6 +382,10 @@ body {
   color: white;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+}
+.grid4 .div18:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 .grid4 .div19 {
   grid-area: 4/4/5/5;
@@ -271,6 +393,10 @@ body {
   color: white;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+}
+.grid4 .div19:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 .grid4 .div20 {
   grid-area: 4/5/5/6;
@@ -278,6 +404,10 @@ body {
   color: white;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+}
+.grid4 .div20:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 .grid4 .div21 {
   grid-area: 5/1/6/2;
@@ -285,6 +415,10 @@ body {
   color: white;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+}
+.grid4 .div21:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 .grid4 .div22 {
   grid-area: 5/2/6/3;
@@ -292,6 +426,10 @@ body {
   color: white;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+}
+.grid4 .div22:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 .grid4 .div23 {
   grid-area: 5/3/6/4;
@@ -299,6 +437,10 @@ body {
   color: white;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+}
+.grid4 .div23:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 .grid4 .div24 {
   grid-area: 5/4/6/5;
@@ -306,6 +448,10 @@ body {
   color: white;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+}
+.grid4 .div24:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 .grid4 .div25 {
   grid-area: 5/5/6/6;
@@ -313,6 +459,10 @@ body {
   color: white;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+}
+.grid4 .div25:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 .grid4 .div26 {
   grid-area: 6/1/7/2;
@@ -320,6 +470,10 @@ body {
   color: white;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+}
+.grid4 .div26:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 .grid4 .div27 {
   grid-area: 6/2/7/3;
@@ -327,6 +481,10 @@ body {
   color: white;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+}
+.grid4 .div27:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 .grid4 .div28 {
   grid-area: 6/3/7/4;
@@ -334,6 +492,10 @@ body {
   color: white;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+}
+.grid4 .div28:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 .grid4 .div29 {
   grid-area: 6/4/7/5;
@@ -341,6 +503,10 @@ body {
   color: white;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+}
+.grid4 .div29:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 .grid4 .div30 {
   grid-area: 6/5/7/6;
@@ -348,6 +514,10 @@ body {
   color: white;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+}
+.grid4 .div30:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 .grid4 .div31 {
   grid-area: 7/1/8/2;
@@ -355,6 +525,10 @@ body {
   color: white;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+}
+.grid4 .div31:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 .grid4 .div32 {
   grid-area: 7/2/8/3;
@@ -362,6 +536,10 @@ body {
   color: white;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+}
+.grid4 .div32:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 .grid4 .div33 {
   grid-area: 7/3/8/4;
@@ -369,6 +547,10 @@ body {
   color: white;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+}
+.grid4 .div33:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 .grid4 .div34 {
   grid-area: 7/4/8/5;
@@ -376,6 +558,10 @@ body {
   color: white;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+}
+.grid4 .div34:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 .grid4 .div35 {
   grid-area: 7/5/8/6;
@@ -383,6 +569,10 @@ body {
   color: white;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+}
+.grid4 .div35:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .bg-black {
@@ -391,4 +581,26 @@ body {
 
 .bg-blackop {
   background-color: rgb(28, 26, 26);
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin: auto;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: grid;
+  grid-template-columns: repeat(4, 50px);
+  gap: 6px;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
